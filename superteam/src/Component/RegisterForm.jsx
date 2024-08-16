@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function RegisterForm() {
   const handleSubmit = (event) => {
@@ -54,7 +55,7 @@ function RegisterForm() {
             required
           />
         </div>
-        <button type="submit" className="btn btn-dark w-100">
+        <button type="submit" className="btn btn-primary w-100">
           Register
         </button>
         <div className="mt-3 text-center">
